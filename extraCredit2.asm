@@ -22,7 +22,7 @@ main PROC
 
 	L1:										;Setting up the loop
 	mov EAX, ESI							;Moving the value of ESI to the EAX register
-	xchg EAX, [ESI + 5]					    ;Exchanging the integers of EAX and ESI
+	xchg EAX, [ESI + 1]					    ;Exchanging the integers of EAX and ESI
 	mov ESI, EAX							;Moving the value of EAX to the ESI register
 
 	add ESI, TYPE element					;Adding the value of the array to ESI
